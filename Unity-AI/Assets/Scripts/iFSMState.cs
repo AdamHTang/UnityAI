@@ -6,5 +6,11 @@
  */
 
 public interface IFSMState{
-    FSMStateType StateName { get; }
+    FSMStateType stateName { get; }
+
+    void onEnter();
+    void onExit();
+    void doAction();
+
+    FSMStateType ShoudTransitionToState();
 }
