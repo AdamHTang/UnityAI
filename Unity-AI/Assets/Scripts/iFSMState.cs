@@ -12,5 +12,5 @@ public interface IFSMState{
     void onExit();
     void doAction();
 
-    FSMStateType ShoudTransitionToState();
+    FSMStateType ShouldTransitionToState();
 }

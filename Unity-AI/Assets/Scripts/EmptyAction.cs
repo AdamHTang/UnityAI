@@ -29,7 +29,7 @@ public class EmptyAction : IFSMState
         
     }
 
-    public FSMStateType ShoudTransitionToState()
+    public FSMStateType ShouldTransitionToState()
     {
         return FSMStateType.None;
     }

@@ -31,7 +31,7 @@ public class SightLine : MonoBehaviour
 
     void Update()
     {
-
+        
     }
 
     private void OnTriggerStay(Collider other)
